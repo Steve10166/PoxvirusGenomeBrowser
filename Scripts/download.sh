@@ -22,19 +22,35 @@ do
     id="${entry%%|*}"        # Extract the accession ID
     description="${entry##*|}" # Extract the description
 
-    # Construct the full URL
-    url="${base_url}?db=nucleotide&id=${id}&rettype=fasta"
+    # Construct URLs for FASTA and GFF3
+    fasta_url="${base_url}?db=nucleotide&id=${id}&rettype=fasta"
+    gff3_url="${base_url}?db=nucleotide&id=${id}&rettype=gff3"
 
-    # Define the output filename
-    filename="${description}_${id}.fasta"
+    # Define output filenames
+    fasta_filename="${description}_${id}.fasta"
+    gff3_filename="${description}_${id}.gff3"
 
-    # Download the file
-    wget -O "$filename" "$url"
-
-    # Check if download succeeded
+    # Download the FASTA file
+    wget -O "$fasta_filename" "$fasta_url"
     if [ $? -eq 0 ]; then
-        echo "Downloaded: $filename"
+        echo "Downloaded FASTA: $fasta_filename"
+
+        # Generate the FASTA index file (.fai)
+        samtools faidx "$fasta_filename"
+        if [ $? -eq 0 ]; then
+            echo "Generated FASTA index: ${fasta_filename}.fai"
+        else
+            echo "Failed to generate FASTA index for: $fasta_filename"
+        fi
     else
-        echo "Failed to download: $id"
+        echo "Failed to download FASTA: $id"
+    fi
+
+    # Download the GFF3 file
+    wget -O "$gff3_filename" "$gff3_url"
+    if [ $? -eq 0 ]; then
+        echo "Downloaded GFF3: $gff3_filename"
+    else
+        echo "Failed to download GFF3: $id"
     fi
 done

@@ -2,8 +2,14 @@
 
 # List of Accession IDs with Descriptive Names
 ids=(
-    "KJ642619.1|Monkeypox_virus_Gabon_1988"
-    "NC_001802.1|HIV1_complete_genome" # Example of another ID
+    "KJ642619.1|Monkeypox_virus"
+    "PP405600.1|Variola virus"
+    "KY463519.1|Cowpox virus"
+    "AF438165.1|Camelpox virus"
+    "NC_003389.1|Swinepox virus"
+    "AY077832.1|Sheeppox virus"
+    "NC_004105.1|Ectromelia virus"
+    # Example of another ID
 )
 
 # Base URL for NCBI E-utilities

@@ -3,11 +3,6 @@
     "drawerPosition": "right",
     "drawerWidth": 384,
     "widgets": {
-      "pluginStoreWidget": {
-        "id": "pluginStoreWidget",
-        "type": "PluginStoreWidget",
-        "filterText": ""
-      },
       "GridBookmark": {
         "id": "GridBookmark",
         "type": "GridBookmarkWidget"
@@ -15,7 +10,7 @@
       "hierarchicalTrackSelector": {
         "id": "hierarchicalTrackSelector",
         "type": "HierarchicalTrackSelectorWidget",
-        "view": "RhX5G-GIAV9ZSz555j1pT",
+        "view": "U72bPdjkrtGQX3Wzg8CnJ",
         "faceted": {
           "filterText": "",
           "showSparse": false,
@@ -23,45 +18,43 @@
           "showOptions": false,
           "panelWidth": 400
         }
-      },
-      "sessionManager": {
-        "id": "sessionManager",
-        "type": "SessionManager"
       }
     },
-    "activeWidgets": {},
+    "activeWidgets": {
+      "hierarchicalTrackSelector": "hierarchicalTrackSelector"
+    },
     "minimized": false,
-    "id": "aY6RU1BhZmN6ZCHjT2ExS",
-    "name": "New session 12/8/2024, 8:23:23 PM",
+    "id": "-tlFtpsub-kEHMWV9Gpaj",
+    "name": "New Session 12/8/2024, 10:50:52 PM",
     "margin": 0,
     "views": [
       {
-        "id": "RhX5G-GIAV9ZSz555j1pT",
+        "id": "U72bPdjkrtGQX3Wzg8CnJ",
         "minimized": false,
         "type": "LinearGenomeView",
-        "offsetPx": 0,
-        "bpPerPx": 223.60760869565217,
+        "offsetPx": 29511,
+        "bpPerPx": 2.3133763678105748,
         "displayedRegions": [
           {
             "reversed": false,
-            "refName": "AF438165.1",
+            "refName": "KJ642619.1",
             "start": 0,
-            "end": 205719,
-            "assemblyName": "Camelpox virus_AF438165.1"
+            "end": 196546,
+            "assemblyName": "Monkeypox_virus_KJ642619.1"
           }
         ],
         "tracks": [
           {
-            "id": "v6Uu0tb-TJgayUV9ilTCZ",
+            "id": "K8SW2vCRfvw6Y05oN7sfH",
             "type": "ReferenceSequenceTrack",
-            "configuration": "Camelpox virus_AF438165.1-ReferenceSequenceTrack",
+            "configuration": "Monkeypox_virus_KJ642619.1-ReferenceSequenceTrack",
             "minimized": false,
             "displays": [
               {
-                "id": "gMvh5Cqka2aLfWHdIcpef",
+                "id": "nyYgcyJGrZgYn3qlXnUN-",
                 "type": "LinearReferenceSequenceDisplay",
-                "heightPreConfig": 50,
-                "configuration": "Camelpox virus_AF438165.1-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                "heightPreConfig": 120,
+                "configuration": "Monkeypox_virus_KJ642619.1-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
                 "showForward": true,
                 "showReverse": true,
                 "showTranslation": true
@@ -69,15 +62,15 @@
             ]
           },
           {
-            "id": "iJTAWAJ5wVOkPCKCTuF4y",
+            "id": "DHXBe-KuVJNi9B9JVOweX",
             "type": "FeatureTrack",
-            "configuration": "Camelpox virus_AF438165.1_sorted.gff",
+            "configuration": "Monkeypox_virus_KJ642619.1_sorted.gff",
             "minimized": false,
             "displays": [
               {
-                "id": "fM6qKudjt0QoA-xUnQC_X",
+                "id": "5Md87cLFJQSmrrcG7lixS",
                 "type": "LinearBasicDisplay",
-                "configuration": "Camelpox virus_AF438165.1_sorted.gff-LinearBasicDisplay"
+                "configuration": "Monkeypox_virus_KJ642619.1_sorted.gff-LinearBasicDisplay"
               }
             ]
           }
@@ -98,16 +91,16 @@
       },
       {
         "data": {
-          "tree": "(AF438165.1:0.012290994,PP405600.1:0.017476854,(KY463519.1:0.014624485,(KJ642619.1:0.023402652,(NC_004105.1:0.024291826,(AY077832.1:0.207616765,NC_003389.1:0.208821726)1.000:0.387774038)1.000:0.017252876)1.000:0.010291734)1.000:0.013453511);\n",
+          "tree": "(((((NC_027707.1_Salmon_gill_poxvirus_complete_genome:5.22151819,KJ642619.1_Monkeypox_virus_strain_Gabon-1988_complete_genome:5.07581726)'-':0.58657224,AY077832.1_Sheeppox_virus_10700-99_strain_TU-V02127_complete_genome:5.90661621)'-':0.80137652,(PP405600.1_Variola_virus_isolate_VARV_IND_1958_BOM_complete_genome:5.86256390,MG702259.1_Fowlpox_virus_isolate_282E4_complete_genome:5.21167584)'-':0.21360932)'-':0.36793269,(NC_003389.1_Swinepox_virus_complete_genome:5.10690901,NC_006966.1_Deerpox_virus_W-848-83_complete_genome:5.20079980)'-':0.61946935)'-':0.42030303,(KY463519.1_Cowpox_virus_strain_Germany_1971_EP1_complete_genome:5.43275035,(NC_066642.1_Horsepox_virus_complete_genome:5.82590535,MK239755.1_Buffalopox_virus_isolate_NIV116234_complete_genome:6.35524423)'-':0.28701269)'-':0.80599985,(AF438165.1_Camelpox_virus_M-96_from_Kazakhstan_complete_genome:5.44967342,(AY484669.1_Rabbitpox_virus_complete_genome:4.62127505,NC_004105.1_Ectromelia_virus_complete_genome:6.18788904)'-':1.40613369):0.40918798);\r\n",
           "msa": "",
           "treeMetadata": ""
         },
-        "id": "NOOzaNMUXwrXXJbaP2dKJ",
+        "id": "HazdSTxiOv6H3zcI4nJZt",
         "minimized": false,
         "drawLabels": true,
         "labelsAlignRight": false,
-        "treeAreaWidth": 400,
-        "treeWidth": 277.42919921875,
+        "treeAreaWidth": 1124,
+        "treeWidth": 563.06005859375,
         "treeWidthMatchesArea": true,
         "showBranchLen": true,
         "drawTree": true,
@@ -141,19 +134,7 @@
     "temporaryAssemblies": [],
     "connectionInstances": [],
     "sessionConnections": [],
-    "focusedViewId": "RhX5G-GIAV9ZSz555j1pT",
-    "sessionPlugins": [
-      {
-        "name": "MsaView",
-        "authors": [
-          "Colin Diesh"
-        ],
-        "description": "multiple sequence alignment browser plugin for JBrowse 2",
-        "location": "https://github.com/GMOD/jbrowse-plugin-msaview",
-        "url": "https://unpkg.com/jbrowse-plugin-msaview/dist/jbrowse-plugin-msaview.umd.production.min.js",
-        "license": "Apache License 2.0",
-        "image": "https://raw.githubusercontent.com/GMOD/jbrowse-plugin-list/main/img/msaview-screenshot-fs8.png"
-      }
-    ]
+    "focusedViewId": "U72bPdjkrtGQX3Wzg8CnJ",
+    "sessionPlugins": []
   }
 }

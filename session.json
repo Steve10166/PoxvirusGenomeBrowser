@@ -1,0 +1,159 @@
+{
+  "session": {
+    "drawerPosition": "right",
+    "drawerWidth": 384,
+    "widgets": {
+      "pluginStoreWidget": {
+        "id": "pluginStoreWidget",
+        "type": "PluginStoreWidget",
+        "filterText": ""
+      },
+      "GridBookmark": {
+        "id": "GridBookmark",
+        "type": "GridBookmarkWidget"
+      },
+      "hierarchicalTrackSelector": {
+        "id": "hierarchicalTrackSelector",
+        "type": "HierarchicalTrackSelectorWidget",
+        "view": "RhX5G-GIAV9ZSz555j1pT",
+        "faceted": {
+          "filterText": "",
+          "showSparse": false,
+          "showFilters": true,
+          "showOptions": false,
+          "panelWidth": 400
+        }
+      },
+      "sessionManager": {
+        "id": "sessionManager",
+        "type": "SessionManager"
+      }
+    },
+    "activeWidgets": {},
+    "minimized": false,
+    "id": "aY6RU1BhZmN6ZCHjT2ExS",
+    "name": "New session 12/8/2024, 8:23:23 PM",
+    "margin": 0,
+    "views": [
+      {
+        "id": "RhX5G-GIAV9ZSz555j1pT",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": 0,
+        "bpPerPx": 223.60760869565217,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "AF438165.1",
+            "start": 0,
+            "end": 205719,
+            "assemblyName": "Camelpox virus_AF438165.1"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "v6Uu0tb-TJgayUV9ilTCZ",
+            "type": "ReferenceSequenceTrack",
+            "configuration": "Camelpox virus_AF438165.1-ReferenceSequenceTrack",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "gMvh5Cqka2aLfWHdIcpef",
+                "type": "LinearReferenceSequenceDisplay",
+                "heightPreConfig": 50,
+                "configuration": "Camelpox virus_AF438165.1-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                "showForward": true,
+                "showReverse": true,
+                "showTranslation": true
+              }
+            ]
+          },
+          {
+            "id": "iJTAWAJ5wVOkPCKCTuF4y",
+            "type": "FeatureTrack",
+            "configuration": "Camelpox virus_AF438165.1_sorted.gff",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "fM6qKudjt0QoA-xUnQC_X",
+                "type": "LinearBasicDisplay",
+                "configuration": "Camelpox virus_AF438165.1_sorted.gff-LinearBasicDisplay"
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": false,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      },
+      {
+        "data": {
+          "tree": "(AF438165.1:0.012290994,PP405600.1:0.017476854,(KY463519.1:0.014624485,(KJ642619.1:0.023402652,(NC_004105.1:0.024291826,(AY077832.1:0.207616765,NC_003389.1:0.208821726)1.000:0.387774038)1.000:0.017252876)1.000:0.010291734)1.000:0.013453511);\n",
+          "msa": "",
+          "treeMetadata": ""
+        },
+        "id": "NOOzaNMUXwrXXJbaP2dKJ",
+        "minimized": false,
+        "drawLabels": true,
+        "labelsAlignRight": false,
+        "treeAreaWidth": 400,
+        "treeWidth": 277.42919921875,
+        "treeWidthMatchesArea": true,
+        "showBranchLen": true,
+        "drawTree": true,
+        "drawNodeBubbles": true,
+        "bgColor": true,
+        "colorSchemeName": "maeditor",
+        "showDomains": false,
+        "allowedGappyness": 100,
+        "contrastLettering": true,
+        "subFeatureRows": false,
+        "type": "MsaView",
+        "drawMsaLetters": true,
+        "hideGaps": true,
+        "drawTreeText": true,
+        "height": 550,
+        "rowHeight": 18,
+        "scrollY": 0,
+        "scrollX": 0,
+        "colWidth": 14,
+        "currentAlignment": 0,
+        "collapsed": [],
+        "collapsedLeaves": [],
+        "turnedOffTracks": {},
+        "featureFilters": {},
+        "connectedHighlights": [],
+        "zoomToBaseLevel": false
+      }
+    ],
+    "sessionTracks": [],
+    "sessionAssemblies": [],
+    "temporaryAssemblies": [],
+    "connectionInstances": [],
+    "sessionConnections": [],
+    "focusedViewId": "RhX5G-GIAV9ZSz555j1pT",
+    "sessionPlugins": [
+      {
+        "name": "MsaView",
+        "authors": [
+          "Colin Diesh"
+        ],
+        "description": "multiple sequence alignment browser plugin for JBrowse 2",
+        "location": "https://github.com/GMOD/jbrowse-plugin-msaview",
+        "url": "https://unpkg.com/jbrowse-plugin-msaview/dist/jbrowse-plugin-msaview.umd.production.min.js",
+        "license": "Apache License 2.0",
+        "image": "https://raw.githubusercontent.com/GMOD/jbrowse-plugin-list/main/img/msaview-screenshot-fs8.png"
+      }
+    ]
+  }
+}

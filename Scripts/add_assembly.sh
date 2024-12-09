@@ -11,6 +11,13 @@ assemblies=(
     "Swinepox virus_NC_003389.1.fasta"
     "Sheeppox virus_AY077832.1.fasta"
     "Ectromelia virus_NC_004105.1.fasta"
+    "Fowlpox virus_MG702259.1.fasta"
+    "Rabbitpox virus_AY484669.1.fasta"
+    "Horsepox virus_NC_066642.1.fasta"
+    "Salmon Gill Poxvirus_NC_027707.1.fasta"
+    "Buffalopox virus_MK239755.1.fasta"
+    "Deerpox virus_NC_006966.1.fasta"
+
 )
 
 for assembly in "${assemblies[@]}"

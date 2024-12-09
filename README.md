@@ -24,19 +24,21 @@ Download the repository to your local machine:
 ```bash
 git clone https://github.com/YourRepo/PoxVirusGenomeBrowser.git
 cd PoxVirusGenomeBrowser
-
+```
 
 ### Step 2: Download the Genomic Data from NCBI
 
 ```bash
 cd Scripts
 bash download.sh
+```
 
 ### Step 3: Add assembly and tracks into JBrowse
 
 ```bash
 bash add_assembly.sh
 bash add_track.sh
+```
 
 ### Step 4: Open JBrowse install and inspect data
 

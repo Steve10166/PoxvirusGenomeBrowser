@@ -9,6 +9,12 @@ ids=(
     "NC_003389.1|Swinepox virus"
     "AY077832.1|Sheeppox virus"
     "NC_004105.1|Ectromelia virus"
+    "MG702259.1|Fowlpox virus"
+    "AY484669.1|Rabbitpox virus"
+    "NC_066642.1|Horsepox virus"
+    "NC_027707.1|Salmon Gill Poxvirus"
+    "MK239755.1|Buffalopox virus"
+    "NC_006966.1|Deerpox virus"
     # Example of another ID
 )
 

@@ -10,8 +10,9 @@ To view our static website [here](https://steve10166.github.io/jbrowse2).
 ## Prerequisites
 Before using this repository, ensure you have the following:
 - A working environment to run JBrowse (e.g., local machine, server, or cloud instance).
-If you don't have JBrowse installed, follow these instructions.
-https://jbrowse.org/jb2/docs/
+-If you don't have JBrowse installed:
+-1. follow the instruction here: https://jbrowse.org/jb2/docs/
+-2. Modify the path at the beginning of the two .sh files in the script to the location where you have JBrowse installed.
 ---
 
 ## Installation and Usage Guide
